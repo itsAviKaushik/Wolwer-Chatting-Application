@@ -7,7 +7,9 @@
 // | ----------------------------------------------------------- |
 
 // Configuring the environmental variables.
-require("dotenv").config();
+require("dotenv").config({
+    path: "./config.env"
+});
 
 // Required Imports.
 const app = require("./app");
