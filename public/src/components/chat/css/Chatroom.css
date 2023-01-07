@@ -15,7 +15,8 @@ body {
     flex-direction: column;
     /* max-height: 800px; */
     max-height: 60vh;
-    overflow-y: scroll
+    overflow-y: scroll;
+    /* background-image: url(../../../assets/images/chat_bg.jpg); */
 }
 
 .chat-message-left,
@@ -25,7 +26,11 @@ body {
 }
 
 .chat-message-left {
-    margin-right: auto
+    margin-right: auto;
+}
+
+.chat-message-left .message {
+    background: linear-gradient(#51d6b6, #3fe3bc);
 }
 
 .chat-message-right {
